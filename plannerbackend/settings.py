@@ -24,18 +24,18 @@ SECRET_KEY = 'django-insecure-^xd*hb21a(+dmus0m*r89p+@kuuc62n2zy+d5qvn7hy1q85@pz
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = ['plannerbackend.onrender.com']
       
-                
+ALLOWED_HOSTS = ['plannerapi-p4yt.onrender.com']
+          
+                                
 # Application definition
-
-INSTALLED_APPS = [
-    'django.contrib.admin',
+    
+INSTALLED_APPS = [    
+    'django.contrib.admin',    
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
-    'django.contrib.messages',
+    'django.contrib.messages',    
     'django.contrib.staticfiles',
     'rest_framework',
     'dailytask',  
